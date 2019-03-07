@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <com.execti.whasee.custom.TitalBarView
+        android:id="@+id/tital"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <com.execti.whasee.custom.WaterGroupNeameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="最近搜索"
+        />
+    <com.execti.whasee.custom.WaterContents
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/watercon"
+        android:layout_marginTop="20dp"
+        />
+    <com.execti.whasee.custom.WaterGroupNeameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="热门搜索"
+        />
+    <com.execti.whasee.custom.WaterContents
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/watercon1"
+        android:layout_marginTop="20dp"
+        />
+
+
+</LinearLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ShowActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/maPlace"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/place"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/maPlace"
+            android:layout_toLeftOf="@id/saomiao"
+            />
+        <ImageButton
+            android:id="@+id/saomiao"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/zxing"
+            android:layout_alignParentRight="true"
+            />
+    </RelativeLayout>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/nineView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"/>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/showRecycle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>
